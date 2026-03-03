@@ -22,3 +22,9 @@ void output(){
     cout << "hasilnya:" << luasPersegiP(p,l) << endl;
     cout << "terimakasih" << endl;
 }
+
+int main() {
+    input();
+    output();
+    cout << "hasil penjumlahan: " << jumlah(15.1, 24.9, 67) << endl;
+}
